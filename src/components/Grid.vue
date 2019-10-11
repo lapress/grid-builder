@@ -22,7 +22,7 @@
       <Tile v-for="(tile, index) in tiles" :key="index"  :tile="tile" />
     </GridLayout>
 
-    <b-aside :is-show="show" placement="right">
+    <b-aside :is-show="show" placement="right" >
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis cum, delectus dolor ea est excepturi inventore
       neque nostrum numquam odio quae quam repellendus similique vel, voluptates? Et necessitatibus perferendis
       recusandae.
@@ -47,7 +47,7 @@ export default {
   },
   data() {
     return {
-      tiles: this.value,
+      tiles: [],
       show: false
     };
   },
@@ -78,9 +78,6 @@ $blue: #0073aa;
 
 @import "~vue-blu/src/scss/blu";
 
-.grid {
-  margin-left: -20px;
-}
 .lp.button {
   box-shadow: none;
   border: none;

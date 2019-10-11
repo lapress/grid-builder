@@ -7,7 +7,7 @@
   "author": "Sebastian Szczepanski <sebastian@ably.pl>",
   "license": "MIT",
   "dependencies": {
-    "lapress-frontend-core": "^0.0.0",
+    "@lapress/frontend-core": "^0.0.1",
     "vue-blu": "^0.1.9",
     "vue-grid-layout": "^2.3.4"
   }
