@@ -1,6 +1,10 @@
 <template>
   <div class="grid">
     <LpNavigationBar :title="config.navigation.title" :subtitle="config.navigation.subtitle">
+      <button class="lp button is-info" @click.prevent="$emit('reset')">
+        Wyczyć
+      </button>
+
       <button class="lp button is-info" @click.prevent="$emit('add')">
         Dodaj kafel
       </button>
@@ -68,6 +72,9 @@ export default {
     save() {
       this.$emit('save');
     },
+    reset() {
+      this.tiles = []
+    }
   },
 };
 </script>

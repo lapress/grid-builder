@@ -8,6 +8,17 @@
     :max-h="$lapress.grid.height"
     :max-w="$lapress.grid.width"
   >
+    <svg
+      width="24"
+      height="24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    >
+      <use xlink:href="/lapress/icons.svg#x"/>
+    </svg>
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aut autem deleniti dignissimos distinctio earum, eius enim eos facere impedit ipsa maiores maxime quasi quidem repellat sed tempora voluptatem voluptatum.
   </GridItem>
 </template>
