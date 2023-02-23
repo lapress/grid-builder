@@ -76,6 +76,13 @@
   resolved "https://registry.yarnpkg.com/@interactjs/utils/-/utils-1.5.4.tgz#392a03f14274be7288e342959d3bc4d140379f58"
   integrity sha512-K+aQdl9ipkwxRduZxUMfUHxIqkEq0N62BG5/7FE+bCYXVPTFWcBEkykDGHS/ZN7I53QJJvI/tGsj9sxtaQHD8Q==
 
+"@lapress/frontend-core@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@lapress/frontend-core/-/frontend-core-0.0.1.tgz#7d023295523b04ab152e2be6cf577202aee59030"
+  integrity sha512-OklUcPU/qqBhn7X28DRrQnjAVv6JBDYSbVgNJvHygNpKvHCEMxsJ2UaOS73FpeOBpgJ5tiISeySlRH6GV1LTNA==
+  dependencies:
+    vue-blu "^0.1.9"
+
 batch-processor@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/batch-processor/-/batch-processor-1.0.0.tgz#75c95c32b748e0850d10c2b168f6bdbe9891ace8"
@@ -114,13 +121,6 @@ jump.js@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/jump.js/-/jump.js-1.0.2.tgz#e0641b47f40a38f2139c25fda0500bf28e43015a"
   integrity sha1-4GQbR/QKOPITnCX9oFAL8o5DAVo=
-
-lapress-frontend-core@^0.0.0:
-  version "0.0.0"
-  resolved "https://registry.yarnpkg.com/lapress-frontend-core/-/lapress-frontend-core-0.0.0.tgz#c875b617d762a39f12303f11be9719493db9fb74"
-  integrity sha512-aSZiTOlbdiNVZxDOBy+LUUNjWT1C7bmLHyfeSwHG6ZX6NTB5eCkdCPclFj2pkn7mdQRbNtZ803KefWyjJ877bQ==
-  dependencies:
-    vue-blu "^0.1.9"
 
 lodash@^4.17.2:
   version "4.17.15"
